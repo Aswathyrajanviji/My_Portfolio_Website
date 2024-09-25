@@ -1,0 +1,76 @@
+.aboutme {
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  }
+  
+  h2 {
+    font-family: 'Arial', sans-serif; /* Custom font */
+    font-size: 2.5rem; /* Adjust font size */
+    font-weight: bold; /* Bold font */
+  }
+  
+  h3 {
+    font-family: 'Verdana', sans-serif; /* Custom font */
+    font-size: 1.75rem; /* Adjust font size */
+    margin-top: 30px; /* Space above */
+  }
+  
+  p {
+    font-family: 'Georgia', serif; /* Custom font */
+    line-height: 1.6; /* Improve readability */
+    font-size: 1.1rem; /* Adjust font size */
+    color: #333; /* Dark text color */
+  }
+  
+  /* Custom styling for text-dark class */
+  .text-dark {
+    color: #212529; /* Dark gray color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    font-size: 1.1rem; /* Adjust font size */
+    line-height: 1.5; /* Improved spacing */
+  }
+  
+  .bg-light {
+    background-color: #f8f9fa !important; /* Light background */
+  }
+  
+  .text-primary {
+    color: #007bff !important; /* Bootstrap primary color */
+  }
+  
+  .text-secondary {
+    color: #6c757d !important; /* Bootstrap secondary color */
+  }
+.list-unstyled  {
+    color:rgb(80, 75, 75);
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.lead-text-muted{
+    color: rgb(141, 135, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 576px) {
+  .text1, .text2, .text3 {
+    font-size: 0.9rem; /* Smaller text on smaller screens */
+  }
+}
+.text1{
+    color: rgb(141, 135, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text2{
+    color: rgb(141, 135, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  .text3{
+    color: rgb(141, 135, 128);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+  .mb-4-text-primary{
+    color: rgb(100, 90, 90);
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  

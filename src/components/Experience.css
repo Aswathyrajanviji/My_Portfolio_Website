@@ -1,0 +1,61 @@
+.experience {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px; /* Padding for spacing */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  font-size: 2.5rem; /* Title font size */
+  color: #2c3e50; /* Darker color for title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+p {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  font-size: 1.2rem; /* Paragraph font size */
+  color: #555; /* Dark gray for paragraph text */
+  line-height: 1.6; /* Improved line spacing */
+}
+
+.card {
+  border: none; /* Remove default card border */
+  transition: transform 0.2s; /* Smooth hover effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.card-title {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  font-size: 1.5rem; /* Card title font size */
+  color: #2980b9; /* Color for card titles */
+}
+
+.card-text {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  color: #333; /* Darker color for card text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .experience {
+    padding: 20px; /* Reduced padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.8rem; /* Smaller title font size */
+  }
+
+  p {
+    font-size: 1rem; /* Smaller paragraph font size */
+  }
+
+  .card-title {
+    font-size: 1.3rem; /* Smaller card title font size */
+  }
+}
+
+  

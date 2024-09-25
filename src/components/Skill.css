@@ -1,0 +1,40 @@
+.skills {
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  padding: 20px; /* Add padding for overall spacing */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Custom font */
+  font-size: 2.5rem; /* Adjust font size */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.skill-card {
+  background-color: #f8f9fa; /* Light background for cards */
+  transition: transform 0.2s, box-shadow 0.2s; /* Smooth transition */
+  border-radius: 8px; /* Rounded corners for skill cards */
+  padding: 15px; /* Padding inside skill cards */
+  margin-bottom: 15px; /* Space between cards */
+}
+
+.skill-card:hover {
+  transform: translateY(-5px); /* Lift effect on hover */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Stronger shadow on hover */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .skills {
+    padding: 15px; /* Reduced padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.8rem; /* Smaller title font size */
+  }
+
+  .skill-card {
+    padding: 10px; /* Smaller padding for cards */
+    margin-bottom: 10px; /* Less space between cards */
+  }
+}

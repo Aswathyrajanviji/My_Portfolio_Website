@@ -1,0 +1,79 @@
+.custom-navbar {
+    background-color: #343a40; /* Dark background for the navbar */
+  }
+  
+  .navbar-brand, .nav-link {
+    color: #ffffff; /* White text color */
+  }
+  
+  .nav-link:hover {
+    color: #f8f9fa; /* Lighter text color on hover */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Space between nav items */
+  }
+  .home {
+    position: relative;
+    color: white;
+    text-align: center; /* Center-align text */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    flex-direction: column; /* Stack children vertically */
+  }
+  
+  .profile-photo {
+    border: 5px solid white; /* Optional border */
+    border-radius: 50%; /* Circular photo */
+    width: 150px; /* Adjust size */
+    height: 150px; /* Adjust size */
+    margin-bottom: 20px; /* Space between photo and name */
+  }
+
+  .footer {
+  background-color: #333; /* Dark background */
+  color: white; /* White text color */
+  padding: 20px 0; /* Add padding for spacing */
+  position: fixed; /* Fixed footer at the bottom */
+  bottom: 0;
+  width: 100%; /* Make sure the footer spans the entire width */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between social icons and text */
+  align-items: center; /* Vertically center items */
+  padding: 0 20px; /* Add horizontal padding */
+}
+
+/* Social Media Icon Styles */
+.social-icons {
+  display: flex; /* Display icons in a row */
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+  color: white; /* Icon color */
+  text-decoration: none; /* Remove underline from links */
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for social icons */
+.social-icons a:hover {
+  color: #007bff; /* Change to blue when hovered */
+}
+
+  
+  
+  

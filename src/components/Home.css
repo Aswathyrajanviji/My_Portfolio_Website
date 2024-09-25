@@ -1,0 +1,33 @@
+.home {
+    background-image: url('/path/to/your/background.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay for better text visibility */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .content {
+    text-align: center;
+    color: white; /* White text color */
+  }
+  
+  .profile-photo {
+    width: 150px; /* Adjust the size of your photo */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 50%; /* Circular photo */
+    margin-bottom: 20px; /* Space below the photo */
+  }
+  

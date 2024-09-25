@@ -1,0 +1,72 @@
+.contactme {
+  background-color: #eef; /* Light blue background for a calming effect */
+  padding: 40px; /* Adequate padding for spacing */
+  border-radius: 10px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  max-width: 600px; /* Max width for better readability */
+  margin: auto; /* Centering the contact form */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Clean font family */
+  font-size: 2rem; /* Title font size */
+  color: #2c3e50; /* Dark color for the title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+p {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  color: #555; /* Dark gray for the paragraph */
+  margin-bottom: 30px; /* Space below the paragraph */
+}
+
+.form-label {
+  font-family: 'Arial', sans-serif; /* Consistent font family */
+  font-weight: bold; /* Bold labels for clarity */
+  color: #2980b9; /* Blue color for labels */
+}
+
+.form-control {
+  border-radius: 5px; /* Rounded edges for inputs */
+  border: 1px solid #2980b9; /* Blue border for inputs */
+  transition: border-color 0.3s; /* Smooth transition for focus */
+}
+
+.form-control:focus {
+  border-color: #1abc9c; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(26, 188, 156, 0.5); /* Glow effect on focus */
+}
+
+.btn {
+  background-color: #2980b9; /* Primary button color */
+  color: white; /* White text for contrast */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.btn:hover {
+  background-color: #1abc9c; /* Change button color on hover */
+  color: white; /* Maintain white text */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .contactme {
+    padding: 20px; /* Reduced padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.5rem; /* Smaller title font size */
+  }
+
+  .form-label {
+    font-size: 0.9rem; /* Smaller label font size */
+  }
+
+  .form-control {
+    font-size: 0.9rem; /* Smaller input font size */
+  }
+
+  .btn {
+    font-size: 0.9rem; /* Smaller button font size */
+  }
+}

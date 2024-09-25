@@ -1,0 +1,46 @@
+.testimonial {
+  background-color: #f9f9f9; /* Light background for contrast */
+  padding: 40px; /* Adequate padding */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+h2 {
+  font-family: 'Arial', sans-serif; /* Clean font family */
+  color: #2c3e50; /* Dark color for the title */
+  font-size: 2.5rem; /* Title font size */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+.list-group-item {
+  background-color: #fff; /* White background for each testimonial */
+  border: 1px solid #dee2e6; /* Light border */
+  border-radius: 5px; /* Rounded edges */
+  margin-bottom: 15px; /* Space between testimonials */
+  padding: 20px; /* Padding inside each testimonial */
+  transition: box-shadow 0.3s; /* Smooth transition for hover effect */
+}
+
+.list-group-item:hover {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Hover effect */
+}
+
+cite {
+  font-style: italic; /* Italics for the citation */
+  color: #6c757d; /* Gray color for the citation */
+}
+
+/* Responsive adjustments */
+@media (max-width: 576px) {
+  .testimonial {
+    padding: 20px; /* Reduced padding on smaller screens */
+  }
+
+  h2 {
+    font-size: 1.8rem; /* Smaller title font size */
+  }
+
+  .list-group-item {
+    padding: 15px; /* Reduced padding inside testimonials */
+  }
+}
