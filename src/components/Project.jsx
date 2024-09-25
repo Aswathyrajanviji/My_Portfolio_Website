@@ -4,39 +4,49 @@ import './Project.css'; // Import a CSS file for additional styles
 
 const Project = () => {
   return (
+    <div>
+
     <section className="project container text-center bg-light p-5 rounded shadow">
-      <h2 className="mb-4 text-primary font-weight-bold">Project in Photojournalism</h2>
-      <div className="project-intro mb-4">
-        <h5 className="font-weight-bold">Project Name: <span className="text-success">History Behind Palaces</span></h5>
-        <p className="lead text-muted">
-          A comprehensive exploration of the rich history and architectural beauty of various palaces.
-        </p>
+    <h2 className="mb-4 text-primary font-weight-bold">Project in Photojournalism</h2>
+    <div className="project-intro mb-4">
+      <h5 className="font-weight-bold">Project Name: <span className="text-success">History Behind Palaces</span></h5>
+      <p className="lead text-muted">
+        A comprehensive exploration of the rich history and architectural beauty of various palaces.
+      </p>
+    </div>
+  
+
+  <div className="row row-cols-1 row-cols-md-3 g-4">
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://via.placeholder.com/150" className="card-img-top" alt="Palace 1" />
+        <div className="card-body">
+          <h5 className="card-title">Kowdiar Palace</h5>
+          <p className="card-text">This palace is known for its traditional Kerala architecture and royal heritage.</p>
+        </div>
       </div>
-      
-      <div className="project-details mb-4 text-left">
-        <h6 className="font-weight-bold">Kowdiar Palace</h6>
-        <p>A magnificent royal residence known for its stunning architecture and historical significance.</p>
-        
-        <h6 className="font-weight-bold">Kuthira Malika</h6>
-        <p>An exquisite palace famous for its unique horse-shaped architecture and intricate woodwork.</p>
-        
-        <h6 className="font-weight-bold">Krishnapuram Palace</h6>
-        <p>Renowned for its beautiful murals and extensive gardens, showcasing traditional Kerala architecture.</p>
+    </div>
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://via.placeholder.com/150" className="card-img-top" alt="Palace 2" />
+        <div className="card-body">
+          <h5 className="card-title">Kuthira Malika</h5>
+          <p className="card-text">A short description of the palace and its historical significance.</p>
+        </div>
       </div>
-      
-      <div className="project-summary mt-4">
-        <p className="text-dark">
-          This project involved extensive research, photography, and visual storytelling, highlighting the cultural significance of these historical sites. I utilized photography to capture the intricate details and grandeur of each palace, along with written narratives that provide context and background.
-        </p>
+    </div>
+    <div className="col">
+      <div className="card h-100">
+        <img src="https://via.placeholder.com/150" className="card-img-top" alt="Palace 3" />
+        <div className="card-body">
+          <h5 className="card-title">Krishnapuram Palace</h5>
+          <p className="card-text">A detailed exploration of this palace, highlighting its beautiful architecture and history.</p>
+        </div>
       </div>
-      
-      <h6 className="font-weight-bold mt-4">Key Features:</h6>
-      <ul className="list-unstyled text-left">
-        <li>In-depth research on historical significance</li>
-        <li>High-quality photographic documentation</li>
-        <li>Engaging narratives that bring history to life</li>
-      </ul>
-    </section>
+    </div>
+  </div>
+  </section>
+  </div>
   );
 };
 
