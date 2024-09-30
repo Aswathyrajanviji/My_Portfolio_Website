@@ -1,17 +1,20 @@
 {
   "files": {
-    "main.css": "/My_Portfolio_Website/static/css/main.41bd2ff2.css",
-    "main.js": "/My_Portfolio_Website/static/js/main.2a5551c2.js",
+    "main.css": "/My_Portfolio_Website/static/css/main.80ee6f88.css",
+    "main.js": "/My_Portfolio_Website/static/js/main.08472104.js",
     "static/js/453.83234151.chunk.js": "/My_Portfolio_Website/static/js/453.83234151.chunk.js",
+    "static/media/kuthiramalika.jpg": "/My_Portfolio_Website/static/media/kuthiramalika.5b5ae22467c0358722ab.jpg",
+    "static/media/krishnapuram.jpg": "/My_Portfolio_Website/static/media/krishnapuram.3fd6f6bfe3edc67f8ad4.jpg",
+    "static/media/kowdiar.jpg": "/My_Portfolio_Website/static/media/kowdiar.0063cfc442ec7e84fa26.jpg",
     "static/media/aswathy1.jpg": "/My_Portfolio_Website/static/media/aswathy1.a307a452069dc9892824.jpg",
     "static/media/logo.svg": "/My_Portfolio_Website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/My_Portfolio_Website/index.html",
-    "main.41bd2ff2.css.map": "/My_Portfolio_Website/static/css/main.41bd2ff2.css.map",
-    "main.2a5551c2.js.map": "/My_Portfolio_Website/static/js/main.2a5551c2.js.map",
+    "main.80ee6f88.css.map": "/My_Portfolio_Website/static/css/main.80ee6f88.css.map",
+    "main.08472104.js.map": "/My_Portfolio_Website/static/js/main.08472104.js.map",
     "453.83234151.chunk.js.map": "/My_Portfolio_Website/static/js/453.83234151.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41bd2ff2.css",
-    "static/js/main.2a5551c2.js"
+    "static/css/main.80ee6f88.css",
+    "static/js/main.08472104.js"
   ]
 }
