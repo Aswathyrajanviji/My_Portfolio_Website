@@ -3,6 +3,7 @@ import React from 'react';
  import img1 from '../images/aswathy1.jpg';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import './Home.css';
 
  const Home = () => {
    return (

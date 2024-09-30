@@ -7,7 +7,7 @@ import './Testmonial.css';
 const Testimonials = () => {
   return (
     <div className="testimonial container text-center bg-light p-5 rounded">
-      <h2 className="mb-4 text-primary">Testimonials</h2>
+      <h2 className="mb-4 text">Testimonials</h2>
       <div className="list-group">
         <div className="list-group-item">
           <p className="mb-1">"Aswathy is a highly skilled developer and a pleasure to work with!"</p>

@@ -7,7 +7,7 @@
   }
   
   .nav-link:hover {
-    color: #f8f9fa; /* Lighter text color on hover */
+    color: #0d0d0e; /* Lighter text color on hover */
   }
   
   .nav-item {
@@ -64,14 +64,34 @@
 }
 
 .social-icons a {
-  color: white; /* Icon color */
+  color: rgb(22, 13, 13); /* Icon color */
   text-decoration: none; /* Remove underline from links */
   transition: color 0.3s ease; /* Smooth transition for hover effect */
 }
 
 /* Hover effect for social icons */
 .social-icons a:hover {
-  color: #007bff; /* Change to blue when hovered */
+  color: #0a0a0a; /* Change to blue when hovered */
+}
+nav{
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=37454b&c2=1ce969&gt=l&gd=dcl
+*/
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=210726&c2=e53314&gt=l&gd=dbb
+*/
+/* background: #210726; */
+background: linear-gradient(0deg, #210726, #E53314);
+position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Ensures the navbar stays above other content */
+  background-color: #333; /* Change this color as needed */
+  color: white;
+  padding: 15px 20px;
+  box-shadow: 0 4px 2px -2px gray; 
 }
 
   

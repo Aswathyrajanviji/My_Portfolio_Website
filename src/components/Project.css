@@ -1,58 +1,70 @@
 .project {
-  border-radius: 10px; /* Rounded corners */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  padding: 20px; /* Add padding for overall spacing */
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=210726&c2=e53314&gt=l&gd=dbb
+*/
+/* background: #210726; */
+background: linear-gradient(0deg, #210726, #E53314);
+  border-radius: 10px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+  padding: 20px; 
 }
 
 .project-intro {
-  margin-bottom: 30px; /* Space between intro and content */
+  margin-bottom: 30px; 
 }
 
 .project-details {
-  margin-bottom: 30px; /* Space between details and summary */
+  margin-bottom: 30px; 
 }
 
 h2 {
-  font-family: 'Arial', sans-serif; /* Custom font */
-  font-size: 2.5rem; /* Adjust font size */
-  margin-bottom: 20px; /* Space below the title */
+  font-family: 'Arial', sans-serif;
+  font-size: 2.5rem; 
+  margin-bottom: 20px; 
 }
 
 h5 {
-  font-size: 1.8rem; /* Adjust heading size */
-  margin-bottom: 15px; /* Space below the heading */
+  font-size: 1.8rem;
+  margin-bottom: 15px;
 }
 
 h6 {
-  font-size: 1.4rem; /* Adjust subheading size */
-  color: #333; /* Darker color for subheadings */
-  margin-bottom: 10px; /* Space below the subheading */
+  font-size: 1.4rem;
+  color: #333; 
+  margin-bottom: 10px; 
 }
 
 .project-summary {
-  margin-top: 20px; /* Space above the summary */
+  margin-top: 20px; 
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 576px) {
   .project {
-    padding: 15px; /* Reduced padding on smaller screens */
+    padding: 15px; 
   }
 
   h2 {
-    font-size: 1.8rem; /* Smaller title font size */
+    font-size: 1.8rem; 
   }
 
   h5 {
-    font-size: 1.5rem; /* Smaller heading size */
+    font-size: 1.5rem; 
   }
 
   h6 {
-    font-size: 1.2rem; /* Smaller subheading size */
+    font-size: 1.2rem; 
   }
 
   .project-intro,
   .project-details {
-    margin-bottom: 20px; /* Reduced margin on smaller screens */
+    margin-bottom: 20px; 
   }
+  .history
+{
+  color:black;
+ 
+}
+
 }

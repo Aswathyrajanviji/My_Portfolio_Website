@@ -1,4 +1,10 @@
 .aboutme {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=210726&c2=e53314&gt=l&gd=dbb
+*/
+background: #210726;
+background: linear-gradient(0deg, #210726, #E53314);
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
   }
@@ -10,32 +16,32 @@
   }
   
   h3 {
-    font-family: 'Verdana', sans-serif; /* Custom font */
-    font-size: 1.75rem; /* Adjust font size */
-    margin-top: 30px; /* Space above */
+    font-family: 'Verdana', sans-serif;
+    font-size: 1.75rem; 
+    margin-top: 30px; 
   }
   
   p {
-    font-family: 'Georgia', serif; /* Custom font */
-    line-height: 1.6; /* Improve readability */
-    font-size: 1.1rem; /* Adjust font size */
-    color: #333; /* Dark text color */
+    font-family: 'Georgia', serif; 
+    line-height: 1.6; 
+    font-size: 1.1rem; 
+    color: #333;
   }
   
-  /* Custom styling for text-dark class */
+  
   .text-dark {
-    color: #212529; /* Dark gray color */
-    font-family: 'Arial', sans-serif; /* Change font family */
-    font-size: 1.1rem; /* Adjust font size */
-    line-height: 1.5; /* Improved spacing */
+    color: #212529; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.1rem; 
+    line-height: 1.5; 
   }
   
   .bg-light {
-    background-color: #f8f9fa !important; /* Light background */
+    background-color: #f8f9fa !important; 
   }
   
   .text-primary {
-    color: #007bff !important; /* Bootstrap primary color */
+    color: #111213 !important; 
   }
   
   .text-secondary {

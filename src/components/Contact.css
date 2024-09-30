@@ -1,5 +1,10 @@
 .contactme {
-  background-color: #eef; /* Light blue background for a calming effect */
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=210726&c2=e53314&gt=l&gd=dbb
+*/
+/* background: #210726; */
+background: linear-gradient(0deg, #210726, #E53314);
   padding: 40px; /* Adequate padding for spacing */
   border-radius: 10px; /* Rounded corners for a modern look */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
@@ -23,12 +28,12 @@ p {
 .form-label {
   font-family: 'Arial', sans-serif; /* Consistent font family */
   font-weight: bold; /* Bold labels for clarity */
-  color: #2980b9; /* Blue color for labels */
+  color: #232324; /* Blue color for labels */
 }
 
 .form-control {
   border-radius: 5px; /* Rounded edges for inputs */
-  border: 1px solid #2980b9; /* Blue border for inputs */
+  border: 1px solid #111111; /* Blue border for inputs */
   transition: border-color 0.3s; /* Smooth transition for focus */
 }
 
@@ -38,13 +43,13 @@ p {
 }
 
 .btn {
-  background-color: #2980b9; /* Primary button color */
+  background-color: #161616; /* Primary button color */
   color: white; /* White text for contrast */
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .btn:hover {
-  background-color: #1abc9c; /* Change button color on hover */
+  background-color: #101111; /* Change button color on hover */
   color: white; /* Maintain white text */
 }
 

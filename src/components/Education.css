@@ -1,4 +1,10 @@
 .education {
+  /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=210726&c2=e53314&gt=l&gd=dbb
+*/
+background: #210726;
+background: linear-gradient(0deg, #210726, #E53314);
   border-radius: 10px; /* Rounded corners */
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Shadow effect */
   padding: 20px; /* Add padding for overall spacing */

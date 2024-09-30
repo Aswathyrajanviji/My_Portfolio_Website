@@ -3,6 +3,7 @@ import { Link, useLocation } from 'react-router-dom'; // Import useLocation
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './Nav.css';
+// import './App.css';
 import img1 from '../images/aswathy1.jpg'; 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
               src={img1}
               alt="Profile"
               className="rounded-circle"
-              style={{ width: '50px',marginRight: '10px' }}
+              style={{ width: '50px',height:'50px',marginRight: '10px' }}
             />
             <span>Aswathy R V</span>
           </div>
@@ -58,7 +59,7 @@ const Navbar = () => {
                 <Link className="nav-link" to="/contactme">CONTACT ME</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/testmonial">TESTIMONIAL</Link>
+                <Link className="nav-link" to="/testmonial">TESTIMONIALS</Link>
               </li>
             </ul>
           </div>

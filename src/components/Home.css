@@ -1,5 +1,5 @@
 .home {
-    background-image: url('/path/to/your/background.jpg'); /* Replace with your background image path */
+    /* background-image: url('/path/to/your/background.jpg');  */
     background-size: cover;
     background-position: center;
     height: 100vh; /* Full viewport height */
@@ -26,8 +26,8 @@
   
   .profile-photo {
     width: 150px; /* Adjust the size of your photo */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 50%; /* Circular photo */
-    margin-bottom: 20px; /* Space below the photo */
+    height: 150px; /* Maintain aspect ratio */
+    border-radius: 90%; /* Circular photo */
+    margin-bottom: 40px; /* Space below the photo */
   }
   
