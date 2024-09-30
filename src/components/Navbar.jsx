@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js';
 import './Nav.css';
 // import './App.css';
-import img1 from '../images/aswathy1.jpg'; 
+import img1 from '../images/as.jpg'; 
 
 const Navbar = () => {
   const location = useLocation(); // Get the current path
@@ -18,7 +18,7 @@ const Navbar = () => {
               src={img1}
               alt="Profile"
               className="rounded-circle"
-              style={{ width: '50px',height:'50px',marginRight: '10px' }}
+              style={{ width: '120px',height:'120px',marginRight: '10px' }}
             />
             <span>Aswathy R V</span>
           </div>

@@ -1,20 +1,21 @@
 
 import React from 'react';
- import img1 from '../images/aswathy1.jpg';
+ import img3 from '../images/logo.jpg';
  import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faFacebook, faTwitter, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import './Home.css';
 
  const Home = () => {
    return (
+    <div>
     <div className="home">
-       <div className="overlay">
+    <div className="overlay"> 
        <div className="content">
-          <img src={img1} className="profile-photo" alt="Aswathy" />
-          <h1>Aswathy R V</h1>
-          <h2>Frontend Developer</h2>
-         </div>
-     </div>
+          <img src={img3} className="profile-photo" alt="" /> 
+          <h1 className='c'>Aswathy R V</h1>
+          <h2 className='c1'>Frontend Developer</h2>
+          </div>
+      </div>
      {/* Footer Section */}
        <footer className="footer">
          <div className="social-icons">
@@ -34,6 +35,7 @@ import './Home.css';
          <p>&copy; 2024 Aswathy R V. All rights reserved.</p>
        </footer>
      </div>
+    </div> 
   );
 }
 
